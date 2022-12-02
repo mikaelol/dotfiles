@@ -1,4 +1,4 @@
-source /etc/bash_completion.d/*
+#source /etc/bash_completion.d/*
 
 if command -v exa &> /dev/null; then
   alias l="exa -BlahgHS -s time --time-style long-iso --group-directories-first"
