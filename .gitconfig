@@ -1,0 +1,15 @@
+[branch]
+  autosetuprebase = always
+[push]
+  default = current
+[user]
+  name = mikaelol
+  email = 104485047+mikaelol@users.noreply.github.com
+[core]
+  editor = vim
+[alias]
+  dc = diff --cached
+  up = pull --rebase --autostash
+  ch = checkout
+  com = !git checkout main || git checkout master
+  ca  = commit --amend --no-edit
