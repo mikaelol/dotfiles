@@ -1,7 +1,7 @@
 #source /etc/bash_completion.d/*
 
 if command -v exa &> /dev/null; then
-  alias l="exa -BlahgHS -s time --time-style long-iso --group-directories-first"
+  alias l="eza -BlahgHS -s time --time-style long-iso --group-directories-first"
 else
   alias l="ls -ltura --color=auto"
 fi
